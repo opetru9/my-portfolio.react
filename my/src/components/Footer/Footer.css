@@ -1,10 +1,22 @@
 
-.footer {
-    margin-top: auto;
+body.dark .footer {
     padding: 60px 0 50px;
     background-color: var(--footer-bg);
     color: var(--footer-text);
 }
+body .footer{
+    padding: 60px 0 50px;
+    background-color: #c2c1b6;
+    color: #222;
+}
+.footer{
+    z-index: 2;
+    bottom: 0;
+}
+/* .section.contacts+#tsparticles+.footer{
+    position: absolute;
+    width: 100%;
+} */
 
 .footer__wrapper {
     display: flex;

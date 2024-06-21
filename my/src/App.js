@@ -9,14 +9,15 @@ import ScrollToTop from './utils/scrollToTop'
 import Error from './components/Error'
 import './styles/master.css'
 import './styles/reset.css'
+import ParticlesComponent from './components/Particles/ParticlesComponent';
 
 function App() {
   return (
     <div className="App">
+      
       <Router>
         <ScrollToTop />
         <Navbar />
-
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
@@ -26,6 +27,7 @@ function App() {
         </Routes>
       </Router>
 
+      <ParticlesComponent/>
       <Footer />
     </div>
   );

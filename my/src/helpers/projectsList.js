@@ -74,7 +74,7 @@ const projectsList = [
     id: 5,
   },
   {
-    title: "Mini fullstack e-shop",
+    title: "Backend e-shop",
     skills: "Docker, Postgres, Node.js, JS",
     description:
       "This site is a mini e-shop executed as a full-stack project. Essentially, I've created a database using Docker Compose and PostgreSQL. I've implemented the logic for adding a product, client, order, or payment. Additionally, I've built a Node.js server that hosts the website and renders different pages based on the declared paths. The site allows you to choose a product, enter personal details, which are then added to the database in the client table. You can then place an order, which in turn will also be added to the database. Finally, you can proceed to pay for the product, and the payment information will similarly be inserted into the database. As the title suggests, it's a mini full-stack website.",
@@ -83,7 +83,7 @@ const projectsList = [
     id: 6,
   },
   {
-    title: "Weather API website",
+    title: "Weather API",
     skills: "JS ( AJAX, Fetch ), CSS ",
     description:
       "The classic weather website where you enter the name of the city and receive current weather data for the specified city using the 'weatherApi'. Additionally, the data is retrieved, saved in local storage, and cleared after an hour. This update was made to always store fresh information and to save resources.",

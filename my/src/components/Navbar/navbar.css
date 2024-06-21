@@ -1,9 +1,20 @@
 .nav {
     padding: 20px 0;
-    background-color: var(--nav-bg);
+    background-color: #fff;
     border-bottom: 1px solid var(--nav-border);
     color: var(--nav-text);
     letter-spacing: normal;
+    position: relative;
+    z-index: 2;
+}
+body.dark .nav{
+    background-color: var(--nav-bg);
+}
+body.dark .logo{
+    color: var(--nav-text);
+}
+body.dark .nav-list__link{
+    color: var(--nav-text);
 }
 
 .nav-row {
@@ -17,7 +28,7 @@
 
 .logo {
     margin-right: auto;
-    color: var(--nav-text);
+    color: #272727;
     font-size: 24px;
     font-family: 'Poppins', sans-serif;
 }
@@ -38,7 +49,7 @@
 }
 
 .nav-list__link {
-    color: var(--nav-text);
+    color: #272727;
     transition: opacity 0.2s ease-in;
 }
 

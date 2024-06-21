@@ -2,7 +2,13 @@ import './btnDemo.css'
 
 const BtnDemo = ( {link} ) => {
   return (
-    <a href={link} target="_blank" rel="noreferrer" className="btn-outline-demo">
+    <a
+      href={link}
+      target="_blank"
+      rel="noreferrer"
+      className="btn-outline-demo"
+    >
+      <i class="fa-solid fa-arrow-up-right-from-square"></i>
       Demo version
     </a>
   );

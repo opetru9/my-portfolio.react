@@ -8,15 +8,16 @@ const Projects = () => {
         <div className="container">
           <h2 className="title-1">Projects</h2>
           <ul className="projects">
-
             {projects.map((project) => (
-                <ProjectComponent title      = {project.title} 
-                                  img        = {project.img} 
-                                  key        = {project.id}
-                                  id         = {project.id}  />
+              <ProjectComponent
+                title={project.title}
+                img={project.img}
+                key={project.id}
+                id={project.id}
+                gitHubLink={project.gitHubLink}
+                demoLink={project.demoLink}
+              />
             ))}
-
-            
           </ul>
         </div>
       </main>
