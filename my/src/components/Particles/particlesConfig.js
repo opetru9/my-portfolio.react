@@ -17,7 +17,7 @@ const particlesConfig = {
         quantity: 4,
       },
       repulse: {
-        distance: 200,
+        distance: 100,
         duration: 0.4,
       },
     },
@@ -42,7 +42,7 @@ const particlesConfig = {
         default: "bounce",
       },
       random: false,
-      speed: 0.7,
+      speed: 0.3,
       straight: false,
     },
     number: {
@@ -50,16 +50,16 @@ const particlesConfig = {
         enable: true,
         area: 800,
       },
-      value: 100,
+      value: 300,
     },
     opacity: {
-      value: 0.5,
+      value: 0.4,
     },
     shape: {
       type: "circle",
     },
     size: {
-      value: { min: 1, max: 5 },
+      value: { min: 1, max: 4 },
     },
   },
   detectRetina: true,
