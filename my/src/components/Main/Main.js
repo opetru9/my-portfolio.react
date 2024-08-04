@@ -1,4 +1,3 @@
-import { NavLink } from "react-router-dom";
 import { useState } from "react";
 import projects from "../../helpers/projectsList";
 import ProjectComponent from "../project/Project-component";

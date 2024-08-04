@@ -50,7 +50,7 @@ const particlesConfig = {
         enable: true,
         area: 800,
       },
-      value: 300,
+      value: 250,
     },
     opacity: {
       value: 0.4,

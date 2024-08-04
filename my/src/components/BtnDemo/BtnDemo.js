@@ -8,7 +8,7 @@ const BtnDemo = ( {link} ) => {
       rel="noreferrer"
       className="btn-outline-demo"
     >
-      <i class="fa-solid fa-arrow-up-right-from-square"></i>
+      <i className="fa-solid fa-arrow-up-right-from-square"></i>
       Demo version
     </a>
   );
