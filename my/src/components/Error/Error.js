@@ -1,6 +1,8 @@
+import './error.css'
+
 const Error = () => {
     return ( 
-        <h1>
+        <h1 >
             Error 404 : page not found
         </h1>
      );

@@ -6,15 +6,14 @@ import Projects from './pages/Projects'
 import Contacts from './pages/Contacts'
 import Project from './pages/Project'
 import ScrollToTop from './utils/scrollToTop'
-import Error from './components/Error'
+import Error from './components/Error/Error'
+import ParticlesComponent from './components/Particles/ParticlesComponent';
 import './styles/master.css'
 import './styles/reset.css'
-import ParticlesComponent from './components/Particles/ParticlesComponent';
 
 function App() {
   return (
     <div className="App">
-      
       <Router>
         <ScrollToTop />
         <Navbar />
@@ -23,11 +22,11 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/project/:id" element={<Project />} />
           <Route path="/contacts" element={<Contacts />} />
-          <Route element={<Error/>} />
+          <Route path="*" element={<Error />} />
         </Routes>
       </Router>
 
-      <ParticlesComponent/>
+      <ParticlesComponent />
       <Footer />
     </div>
   );

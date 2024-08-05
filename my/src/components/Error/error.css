@@ -1,0 +1,9 @@
+h1{
+    padding-top: 20vh;
+    text-align: center;
+}
+h1+#tsparticles+footer.footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
