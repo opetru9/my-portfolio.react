@@ -1,78 +1,229 @@
 <mxfile host="65bd71144e">
     <diagram id="5F_jTVpt35I9Vbgu597q" name="Page-1">
-        <mxGraphModel dx="847" dy="361" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="3423" dy="1023" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="290" y="120" width="120" height="40" as="geometry"/>
+                <mxCell id="2" value="" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="380" y="70" width="120" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" style="edgeStyle=none;html=1;" edge="1" parent="1">
+                <mxCell id="4" style="edgeStyle=none;html=1;rounded=0;" parent="1" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="350" y="200" as="targetPoint"/>
-                        <mxPoint x="350" y="160" as="sourcePoint"/>
+                        <mxPoint x="440" y="150" as="targetPoint"/>
+                        <mxPoint x="440" y="110" as="sourcePoint"/>
                         <Array as="points">
-                            <mxPoint x="350" y="170"/>
+                            <mxPoint x="440" y="120"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="3" value="Open web-site" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-                    <mxGeometry x="300" y="125" width="100" height="30" as="geometry"/>
+                <mxCell id="3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Open web-site&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="390" y="75" width="100" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="10" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5">
+                <mxCell id="10" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;rounded=0;" parent="1" source="5" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="350" y="290" as="targetPoint"/>
+                        <mxPoint x="440" y="240" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="5" value="check the local sotrage&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="290" y="200" width="120" height="60" as="geometry"/>
+                <mxCell id="5" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Check the local sotrage&amp;nbsp;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="380" y="150" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="14" style="edgeStyle=none;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="16" target="18">
+                <mxCell id="14" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;rounded=0;" parent="1" target="18" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="418.75" y="290" as="targetPoint"/>
+                        <mxPoint x="508.75" y="240" as="targetPoint"/>
+                        <mxPoint x="710" y="260" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="17" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="15" target="16">
+                <mxCell id="17" value="" style="edgeStyle=none;html=1;rounded=0;" parent="1" source="15" target="16" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="15" value="&lt;span style=&quot;font-size: 11px; background-color: rgb(24, 20, 29);&quot;&gt;&amp;nbsp;systemLightMode()&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="600" y="150" width="140" height="50" as="geometry"/>
+                <mxCell id="15" value="&lt;span style=&quot;font-size: 11px; background-color: rgb(24, 20, 29);&quot;&gt;&amp;nbsp;systemLightMode()&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="690" y="100" width="140" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="16" value="return 'dark' or 'light' in base of your system settings" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="610" y="270" width="120" height="60" as="geometry"/>
+                <mxCell id="16" value="return 'dark' or 'light' in base of your system settings" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="700" y="220" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="20" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="18" target="19">
+                <mxCell id="20" value="" style="edgeStyle=none;html=1;rounded=0;" parent="1" source="18" target="19" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="23" style="edgeStyle=none;html=1;exitX=0.628;exitY=0.982;exitDx=0;exitDy=0;entryX=0.174;entryY=-0.004;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="18" target="22">
+                <mxCell id="30" value="There is a value into local Storage" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" parent="20" vertex="1" connectable="0">
+                    <mxGeometry x="-0.1061" relative="1" as="geometry">
+                        <mxPoint x="-32" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="23" style="edgeStyle=none;html=1;exitX=0.628;exitY=0.982;exitDx=0;exitDy=0;entryX=0.174;entryY=-0.004;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;rounded=0;" parent="1" source="18" target="22" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="28" style="edgeStyle=none;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="18" target="15">
+                <mxCell id="29" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Empty local Storage&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="23" vertex="1" connectable="0">
+                    <mxGeometry x="-0.1659" relative="1" as="geometry">
+                        <mxPoint x="13" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="28" style="edgeStyle=none;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;rounded=0;" parent="1" source="18" target="15" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="32" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Check our Color Scheme&amp;nbsp;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" parent="28" vertex="1" connectable="0">
+                    <mxGeometry x="0.1454" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 19px;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;span style=&quot;color: rgb(86, 156, 214);&quot;&gt;let&lt;/span&gt; [&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;darkMode&lt;/span&gt;, &lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;setDarkMode&lt;/span&gt;] &lt;span style=&quot;color: rgb(212, 212, 212);&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: rgb(220, 220, 170);&quot;&gt;useLocalStorage&lt;/span&gt;(&lt;span style=&quot;color: rgb(206, 145, 120);&quot;&gt;'darkMode'&lt;/span&gt;, &lt;span style=&quot;color: rgb(220, 220, 170);&quot;&gt;systemLightMode&lt;/span&gt;());&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="260" y="230" width="350" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" style="edgeStyle=none;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;rounded=0;" parent="1" source="19" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="410" y="440" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" value="set the key's value found in the local storage if it exist" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="330" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" style="edgeStyle=none;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;rounded=0;" parent="1" source="22" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="460" y="440" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" value="if the local storage is empty we use the system settings's value, returned by systemLightMode()" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="511" y="330" width="219" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="this value will wait for us into the local storage until the next time" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="380" y="440" width="120" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=11;" parent="1" source="34" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-505" y="100" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="-505" y="60"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="36" style="edgeStyle=none;html=1;fontSize=11;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.423;entryY=-0.005;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="34" edge="1" target="38">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-315" y="100" as="targetPoint"/>
+                        <mxPoint x="-315" y="40" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="-125" y="60"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="34" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;We change the Mode&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=8;" parent="1" vertex="1">
+                    <mxGeometry x="-395" y="40" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;" parent="1" source="37" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-520" y="160" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="-520" y="160"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="57" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="37">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-665" y="115" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="37" value="Change the Color Scheme" style="whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+                    <mxGeometry x="-595" y="100" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=8;" edge="1" parent="1" source="38">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-109.66666666666652" y="170.0000000000001" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="38" value="Change using the BtnDarkMode Component" style="whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+                    <mxGeometry x="-205" y="100" width="190" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-520.1379310344828" y="220" as="targetPoint"/>
+                        <mxPoint x="-520" y="190" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="50" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;" parent="1" source="46" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-520" y="290" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="46" value="MediaQuerryList" style="whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="-580" y="220" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="" style="edgeStyle=none;html=1;fontSize=14;" parent="1" target="53" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-520" y="330" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="47" value="MediaQuerryListEvent" style="whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="-602.5" y="290" width="165" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="useEffect()" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="-570" y="160" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=9;" edge="1" parent="1" source="53" target="55">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="18" value="&lt;span style=&quot;font-size: 11px; background-color: rgb(24, 20, 29);&quot;&gt;useLocalStorage( 'darkMode' , systemLightMode() )&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="207.5" y="290" width="285" height="50" as="geometry"/>
+                <mxCell id="53" value="event.matches" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="-587.5" y="360" width="135" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="25" style="edgeStyle=none;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="19">
+                <mxCell id="75" style="edgeStyle=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;fontSize=8;" edge="1" parent="1" source="55" target="64">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="setDarkMode" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="-591.25" y="440" width="142.5" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Am folosit useEffect() ca sa monitorizeze schimbarile de color Scheme :&lt;br&gt;1.am creat un obiect mediaQuerryList cu o preferinta de color-scheme-dark.&lt;br&gt;2.i-am atasat un eventListener care asteapta pentru schimbari de color scheme.&lt;br&gt;3.cind sunt schmbari se compara preferences cu prin event.matches.&amp;nbsp;&lt;br&gt;4.in baza la rezultatul compararii se seteaza noul mod.&lt;/font&gt;&amp;nbsp;&amp;nbsp;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="-830" y="100" width="155" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=9;" edge="1" parent="1" source="64" target="67">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="320" y="490" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="-493.41999999999996" y="560"/>
+                        </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="19" value="set the key value found in the local storage if it exist" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="160" y="380" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="26" style="edgeStyle=none;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="22">
+                <mxCell id="71" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=8;entryX=0.546;entryY=-0.039;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="64" target="72">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="370" y="490" as="targetPoint"/>
+                        <mxPoint x="-153.4200000000004" y="600" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="-176.41999999999996" y="560"/>
+                        </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="22" value="if the local storage is empty we use the system settings's value" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="420" y="380" width="120" height="60" as="geometry"/>
+                <mxCell id="64" value="useEffect()" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="-388.41999999999996" y="540" width="100" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="27" value="this value will wait us into the local storage for the next time" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="290" y="490" width="120" height="60" as="geometry"/>
+                <mxCell id="70" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=8;" edge="1" parent="1" source="67" target="69">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="if(darkMode === 'dark')" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="-584.92" y="610" width="182.5" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;document&lt;/span&gt;.&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;body&lt;/span&gt;.&lt;span style=&quot;color: rgb(79, 193, 255);&quot;&gt;classList&lt;/span&gt;.&lt;span style=&quot;color: rgb(220, 220, 170);&quot;&gt;add&lt;/span&gt;(&lt;span style=&quot;color: rgb(206, 145, 120);&quot;&gt;'dark'&lt;/span&gt;)&lt;/font&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px; color: rgb(79, 193, 255);&quot;&gt;btnRef&lt;/span&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;font-size: 8px; color: rgb(156, 220, 254);&quot;&gt;current&lt;/span&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;font-size: 8px; color: rgb(156, 220, 254);&quot;&gt;classList&lt;/span&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;font-size: 8px; color: rgb(220, 220, 170);&quot;&gt;add&lt;/span&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;font-size: 8px; color: rgb(206, 145, 120);&quot;&gt;'dark-mode-btn--active'&lt;/span&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="-618.8" y="720" width="250.25" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="72" target="73">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-184.41999999999996" y="710" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="72" value="if(darkMode === 'light')" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="-275.91999999999996" y="610" width="182.5" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;document&lt;/span&gt;.&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;body&lt;/span&gt;.&lt;span style=&quot;color: rgb(79, 193, 255);&quot;&gt;classList&lt;/span&gt;.&lt;span style=&quot;color: rgb(220, 220, 170);&quot;&gt;remove&lt;/span&gt;(&lt;span style=&quot;color: rgb(206, 145, 120);&quot;&gt;&quot;dark&quot;&lt;/span&gt;);&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px; color: rgb(79, 193, 255);&quot;&gt;btnRef&lt;/span&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;font-size: 8px; color: rgb(156, 220, 254);&quot;&gt;current&lt;/span&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;font-size: 8px; color: rgb(156, 220, 254);&quot;&gt;classList&lt;/span&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;font-size: 8px; color: rgb(220, 220, 170);&quot;&gt;remove&lt;/span&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;font-size: 8px; color: rgb(206, 145, 120);&quot;&gt;&quot;dark-mode-btn--active&quot;&lt;/span&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;);&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="-318.13" y="720" width="266.93" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;fontSize=8;" edge="1" parent="1" target="64">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-109.99499999999989" y="305" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="-185" y="400"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="77" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 19px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;span style=&quot;color: rgb(86, 156, 214);&quot;&gt;const&lt;/span&gt; &lt;span style=&quot;color: rgb(220, 220, 170);&quot;&gt;toggleDarkMode&lt;/span&gt; &lt;span style=&quot;color: rgb(212, 212, 212);&quot;&gt;=&lt;/span&gt; () &lt;span style=&quot;color: rgb(86, 156, 214);&quot;&gt;=&amp;gt;&lt;/span&gt;{&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #dcdcaa;&quot;&gt;setDarkMode&lt;/span&gt;((&lt;span style=&quot;color: #9cdcfe;&quot;&gt;currentValue&lt;/span&gt;)&lt;span style=&quot;color: #569cd6;&quot;&gt;=&amp;gt;&lt;/span&gt;{&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #c586c0;&quot;&gt;return&lt;/span&gt; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;currentValue&lt;/span&gt; &lt;span style=&quot;color: #d4d4d4;&quot;&gt;===&lt;/span&gt; &lt;span style=&quot;color: #ce9178;&quot;&gt;'light'&lt;/span&gt; &lt;span style=&quot;color: #d4d4d4;&quot;&gt;?&lt;/span&gt; &lt;span style=&quot;color: #ce9178;&quot;&gt;'dark'&lt;/span&gt; &lt;span style=&quot;color: #d4d4d4;&quot;&gt;:&lt;/span&gt; &lt;span style=&quot;color: #ce9178;&quot;&gt;'light'&lt;/span&gt;;&lt;/font&gt;})}&lt;/div&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=8;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="-318.13" y="180" width="401.71" height="130" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
